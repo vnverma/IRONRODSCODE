@@ -1,0 +1,135 @@
+@media (max-width:1199px){
+.navbar-brand img{max-height: 45px;}
+.nav-link{font-size: 16px;}
+	
+.collections_box{min-height: 490px;}
+	
+.help-center-header li{width: -webkit-calc(50% - 10px); width: -moz-calc(50% - 10px); width: calc(50% - 10px); margin: 5px 10px 5px 0; }
+.help-center-header li a{ width: 100%; padding: 8px 12px; }
+.help-center-header li a br{ display: none }
+.help-center-filter{ display: inline-block !important; padding: 0 !important; }
+.help-center-header .input-group.w-30{ width: 48% !important; padding: 0 !important; margin: 5px 0 !important;top: 5px;}
+.help-center-header .input-group input{ padding: 7px 10px;}
+
+.custom_select.select-rings {width: 125px;font-size: 13px;}
+.dia-filter-cont {background-size: 200px;}
+
+.btn_blue{padding: 4px 10px;font-size: 14px;}
+.btn_blue_black{padding: 4px 10px;font-size: 14px;}
+.btn_orange{padding: 4px 10px;font-size: 14px;}
+.btn_default{padding: 4px 10px;font-size: 14px;}
+	
+.change-payment-info-modal .btn_default { padding: 6px 15px; font-size: 15px;}
+
+.welcome-msg-cont {top: -22px;}
+
+}
+@media (max-width:991px){
+h1{font-size: 30px;line-height: 32px;}
+h2{font-size: 28px;line-height: 28px;}
+h3{font-size: 22px;line-height: 24px;}
+h4{font-size: 19px;line-height: 22px;}
+h5{font-size: 17px;line-height: 20px;}
+h6{font-size: 15px;line-height: 18px;}
+.font50{font-size:40px; line-height: 40px;}
+.font26{font-size:23px;}
+.font24{font-size:22px;}
+.font22{font-size:20px;}
+.font20{font-size:18px;}
+.font19{font-size:17px;}
+.font18{font-size:16px;}
+.font17{font-size:15px;}
+body.home .navbar-collapse{position: absolute;top: 70px;}
+.welcome-msg-cont{right: 0;background: #138496;width: 100%;padding: 2px;text-align: center;-webkit-transition: all 0.3s ease-in; -moz-transition: all 0.3s ease-in; transition: all 0.3s ease-in;}
+
+.navbar-collapse{position: absolute;top: 28px;background: #6cb8cc;width: calc(100% + 15px);left: 0;padding: 0 20px;}
+.nav-link{color: #aae5f4;border-bottom: solid 1px #85ccdf;padding: 12px 5px;}
+.nav-link:hover{border-bottom: solid 1px #85ccdf;}
+#topNavbar .btn_blue{background-color: #138496;}
+	
+.collections_box{min-height: 440px;}
+.tabs .nav-tabs .nav-item {width: 50%;text-align: center;}
+.bg_blue_light.biiling_tab.border_top{border-top: solid 1px #bfc3c4 !important}
+	
+.order-top-block .light_blue_box{ max-width: 100%; -webkit-box-flex: 0; -ms-flex: 0 0 100%; flex: 0 0 100%;}
+.review_order_table tbody tr td {vertical-align: top;}
+}
+@media (max-width:767px){
+h1{font-size: 28px;line-height: 32px;}
+h2{font-size: 26px;line-height: 28px;}
+h3{font-size: 20px;line-height: 24px;}
+h4{font-size: 18px;line-height: 22px;}
+h5{font-size: 16px;line-height: 20px;}
+h6{font-size: 14px;line-height: 19px;}
+p{font-size: 14px;line-height: 19px;}
+.font50{font-size:32px; line-height: 36px;}
+.font26{font-size:22px;}
+.font24{font-size:21px;}
+.font22{font-size:20px;}
+.font20{font-size:18px;}
+.font19{font-size:17px;}
+.font18{font-size:16px;}
+.font17{font-size:15px;}
+.font16{font-size:15px;}
+.font15{font-size:14px;}
+	
+.navbar-brand img{max-height: 40px;}
+	
+.collections_box{min-height: auto;}
+	
+.accordin-lft, .accordin-rgt{ padding: 0 !important; }
+.p-4.page-content-inner{ padding: 12px !important }
+.help-center-header{ padding: 12px !important }
+.help-center-header li{ width: 100%; margin: 5px 0 }
+.help-center-header li a{ width: 100%; padding: 8px 12px; }
+.help-center-header li a br{ display: none }
+.help-center-filter{ display: inline-block !important; padding: 0 !important; }
+.help-center-header .input-group.w-30{ width: 100% !important; padding: 0 !important; margin: 5px 0 !important;top: 5px;}
+	
+#videomodal .modal-dialog iframe{height: 350px;}
+.modal.show .modal-dialog {margin-top: 40px;}
+	
+
+#watch_video_modal .modal-dialog iframe{height: 350px;}
+#watch_video_modal.modal.show .modal-dialog{margin-top: 0px;}
+
+.dia-filter-cont{ background-image: none; }
+.order-french-filters .filter-cont{ display: inline-block; }
+ul.frenchrod-color li{ float: left; width: -webkit-calc(33% - 10px);  width: -moz-calc(33% - 10px); width: calc(33% - 10px); margin: 0 10px 0 0;}
+ul.frenchrod-color li a{ width: 100%; }
+
+.product-thumbnail-imgcont ul li { width: 75px; height: 75px; margin: 0 5px 5px 0;}
+.product-thumbnail-imgcont{ margin-bottom: 20px; }
+.shipping-rules{ text-align: left !important; }
+.french_return_rod p {font-size: 16px; line-height: 24px;}
+.french_return_rod ul.rods-specification {margin: 10px 0 10px 20px;}
+.no-rings-select{ margin:20px 0; }
+.no-rings-select-cont{ margin:5px 0; }
+	
+.howmuch-shipping{ padding: 0 !important }
+.howmuch-shipping table{ width: 100%; }
+.vproduct-add-cart-cont .font14{font-size: 14px;}
+.vproduct-add-cart-cont .font16 {font-size: 16px;}
+	
+.order-retail-header{max-width: -webkit-calc(100% - 0px); max-width: -moz-calc(100% - 0px); max-width: calc(100% - 0px); margin:0 0 2px 0;  }
+.order-retail-details{max-width: 100%;}
+}
+
+@media (max-width:414px){
+body{font-size: 14px;line-height: 18px;}
+h1{font-size: 26px;line-height: 30px;}
+h2{font-size: 24px;line-height: 26px;}
+h3{font-size: 19px;line-height: 22px;}
+h4{font-size: 17px;line-height: 20px;}
+.font26{font-size:22px;}
+.font24{font-size:21px;}
+.font14{font-size:12px;}
+.collections_box ul li{font-size:14px;}
+#videomodal .modal-dialog iframe{height: 220px;}
+.card_icon{width:17%;}
+.card_icon img{max-width:30px;}
+.light_blue_box{padding: 15px;}
+.radio_text br{display: none;}	
+
+.order-details-page .btn_blue_black{font-size: 12.25px;}
+}

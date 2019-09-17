@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<page layout="3columns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <update handle="default_head_blocks"/>
+    <body>
+        <attribute name="class" value="inner-header-bg"/>
+        
+        <!--<referenceBlock name="header.container" remove="true" /> -->
+        <referenceBlock name="page.main.title" remove="true" />
+        <referenceBlock name="header.panel.wrapper" remove="true"/>
+        <referenceBlock name="navigation.sections" remove="true"/> 
+        <referenceBlock name="form.subscribe" remove="true"/>
+        <referenceBlock name="footer_links" remove="true"/>
+        <referenceBlock name="copyright" remove="true"/>
+        <referenceBlock name="breadcrumbs" remove="true" />
+        
+        
+        
+        <referenceContainer name="page.wrapper">
+           <container name="your.custom.name" as="your-custom" label="Your Label Name" htmlTag="div" htmlClass="container" htmlId="your-id" before="page-footer"/>
+       </referenceContainer>
+       <move element="main.content" destination="your.custom.name"/>
+          
+        
+        <referenceContainer name="content">
+            <referenceBlock name="authentication-popup" remove="true"/>
+        </referenceContainer> 
+       
+        <block name="require.js" class="Magento\Framework\View\Element\Template" template="Magento_Theme::page/js/require_js.phtml" />
+        <referenceContainer name="header.container">
+            <container name="header-wrapper" label="Page Header" as="header-wrapper">
+                <block class="Magento\Theme\Block\Html\Header\Logo" name="logo">
+                    <arguments>
+                        <argument name="logo_img_width" xsi:type="number">189</argument>
+                        <argument name="logo_img_height" xsi:type="number">64</argument>
+                    </arguments>
+                </block>
+            </container>
+        </referenceContainer>
+        <referenceContainer name="footer-container">
+            <container name="footer" as="footer" label="Page Footer" htmlTag="div" htmlClass="content">
+                <referenceContainer name="footer">
+                    <block class="Magento\Cms\Block\Block" name="footer_menu">
+                        <arguments>
+                            <argument name="block_id" xsi:type="string">footer_links_block</argument>
+                        </arguments>
+                    </block>
+               
+                    <block class="Magento\Cms\Block\Block" name="footer_menu_test">
+                        <arguments>
+                            <argument name="block_id" xsi:type="string">custom_copyright</argument>
+                        </arguments>
+                    </block>
+                </referenceContainer>
+            </container>  
+        </referenceContainer>
+    </body>
+</page>

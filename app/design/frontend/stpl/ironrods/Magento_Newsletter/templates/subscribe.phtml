@@ -1,0 +1,64 @@
+<?php
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+
+// @codingStandardsIgnoreFile
+
+/** @var \Magento\Newsletter\Block\Subscribe $block */
+
+?>
+
+
+
+
+<!--<div class="col-lg-3 col-md-6 col-sm-6 col-12 text-center form-group">
+        <h6 class="mb-2">Join Our Newsletter To<br>
+          Get Exclusive Offers &amp; Updates</h6>
+        <form>
+          <div class="input-group mb-3">
+            <div class="input-group-prepend"> <span class="input-group-text"><i class="fa fa-envelope-o"></i></span> </div>
+            <input type="text" class="form-control" placeholder="Your email address">
+            <div class="input-group-prepend"> <span class="input-group-text p-0">
+              <button class="btn btn-sm" type="submit">OK</button>
+              </span> </div>
+          </div>
+        </form>
+</div>-->
+
+
+
+ 
+       <h6 class="mb-2">Join Our Newsletter To<br>
+          Get Exclusive Offers &amp; Updates</h6>
+    
+        <form class="form subscribe"
+            novalidate
+            action="<?= $block->escapeUrl($block->getFormActionUrl()) ?>"
+            method="post"
+            data-mage-init='{"validation": {"errorClass": "mage-error"}}'
+            id="newsletter-validate-detail">
+            <div class="field newsletter">
+                <div class="control">
+                        <input name="email" type="email" id="newsletter"
+                               placeholder="<?= $block->escapeHtml(__('Your email address')) ?>"
+                               data-mage-init='{"mage/trim-input":{}}'
+                               data-validate="{required:true, 'validate-email':true}"
+                        />
+               
+            <div class="actions input-group-prepend">
+                <span class="input-group-text p-0">
+                <button class="action subscribe primary sr-only btn btn-sm"
+                        title="<?= $block->escapeHtmlAttr(__('Subscribe')) ?>"
+                        type="submit"
+                        aria-label="Subscribe">
+                    <span><?= $block->escapeHtml(__('Ok')) ?></span>
+                </button>
+                  </span>  
+            </div>
+                        
+                  </div>
+            </div>       
+        </form>
+
